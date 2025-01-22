@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+img.logo {
+    width: 2em;
+    height: 2em;
+}
+
+.logo, i {
+    cursor: pointer;
+}
+
+i {
+    font-size: 1.5em;
+}
+
+p.header {
+    font-size: 1.5em;
+}
+
+button.notify {
+    background-color: black;
+    border: 2px solid orange;
+    padding: 0.6em 3em;
+    color: orange;
+    border-radius: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.notify:hover {
+    background-color: orange;
+    color: black;
+}
+
+.notify:active {
+    background-color: rgba(255, 166, 0, 0.8);
+}
+
+h1.input-header {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+}
+
+input.email, .password {
+    width: 20em;
+    height: 5em;
+    border-radius: 2em;
+    padding: 1em;
+    border: none;
+}
+
+button.login {
+    background-color: tomato;
+    color: white;
+    padding: 0.8em 3em;
+    font-weight: bold;
+    border-radius: 2em;
+    border: none;
+    cursor: pointer;
+}
+
+button.register {
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    padding: 0.8em 3em;
+    font-weight: bold;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+.register:hover {
+    background-color: orange;
+    color: white;
+}
+
+.register:active {
+    background-color: rgba(255, 166, 0, 0.8);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 4em;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+div.left-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-left: 1em;
+}
+
+div.middle-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5em;
+}
+
+div.right-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5em;
+    padding-right: 1em;
+}
+
+main {
+    margin-top: 5em;
+}
+
+form {
+    width: 50%;
+    height: 20em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 2em;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+div.buttons {
+    display: flex;
+    gap: 2em;
+}
